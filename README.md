@@ -6,11 +6,9 @@ automates the discord ui to upload files in a channel
 
  - find the discord file upload button [this](images/button.png)
 
-<<<<<<< HEAD
  - set the x and y click position variables in the [init.py](src/__init__.py) file to the x y position of the button. you can use the [mouseLocation.ahk](src/scripts/mouseLocation.ahk)
-=======
+
  - set the x and y click position variables in the [init.py](src/__init__.py) file to the x y position of the button
->>>>>>> 48813b58fe6687a792c9f79b3e19a97541b11eba
 
  - set the DIRECTORY variable in the [init.py](src/__init__.py) to the directory containing the files to upload
 
@@ -19,8 +17,3 @@ automates the discord ui to upload files in a channel
  - double click the upload dialog once and navigate to the folder and send 1 file, this ensures next time you open the dialog it is in the same folder
 
  - run the [main.py](src/__main__.py) script to start the script, this DOES NOT have a stop hotkey, so it's recommended you set the delay long enough to close the script / keep the console window close enough to close
-
-<<<<<<< HEAD
-=======
- 
->>>>>>> 48813b58fe6687a792c9f79b3e19a97541b11eba
