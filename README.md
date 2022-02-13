@@ -8,8 +8,6 @@ automates the discord ui to upload files in a channel
 
  - set the x and y click position variables in the [init.py](src/__init__.py) file to the x y position of the button. you can use the [mouseLocation.ahk](src/scripts/mouseLocation.ahk)
 
- - set the x and y click position variables in the [init.py](src/__init__.py) file to the x y position of the button
-
  - set the DIRECTORY variable in the [init.py](src/__init__.py) to the directory containing the files to upload
 
  - *optional* -> make all the filenames as SHORT as possible, because this script types the filenames into the upload dialog, there is a max limit of 259 characters
