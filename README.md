@@ -1,6 +1,15 @@
-## discord-file-uploader
+## Discord-File-Uploader
 automates the discord ui to upload files in a channel
 
+### About / Info
+
+ - this program violates the [Discord Community Guidelines](https://discord.com/guidelines) USE AT OWN RISK I'm not responsible if anything happens
+
+ - this program is WINDOWS ONLY because it uses [AutoHotkey](https://www.autohotkey.com/) for user inputs. it also relies on the [choose file dialog](images/fileDialog.png) where typing the filenames into the textbox in the format "name1.png""name2.png""name3.png" will select them to be uploaded, limitations being the max character length of 259
+
+ - you're gonna want to set the delay based off how long it takes you to upload files because discord rate limits file uploads if they're consistent and fast, i haven't had any problems with 15 seconds or more 
+
+ - this script doesn't have a pause/close hotkey so BE CARFUL as it uses the mouse and keyboard to simulate user input, it's recommended that you use command prompt or something that kills the script when it closes to allow easy closing paired with a high enough delay that you can move the mouse
 
 ### Usage
 
