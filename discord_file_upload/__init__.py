@@ -26,7 +26,7 @@ MAX_BUFFER_SIZE   = 8192000                  # max upload files size in bytes
 MAX_BUFFER_COUNT  = 10                       # max number of uplaods per message
 MAX_BUFFER_LENGTH = 259                      # max character length that can be typed in the upload file dialog
 
-DELAY = 6                                    # delay in seconds between each upload
+DELAY = 12                                   # delay in seconds between each upload
 USE_FULL_PATHS = False                       # are absolute paths being used 
 
 
